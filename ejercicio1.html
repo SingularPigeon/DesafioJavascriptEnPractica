@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 1</title>
+      <!-- Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+      <!-- Estilos -->
+       <link rel="stylesheet" href="assets/css/style1.css">
 </head>
 
 <body>
@@ -12,7 +18,7 @@
             <h2>
                 Escríbenos !!!
             </h2>
-            <div class="resultado" style="color:green;font-style: italic">
+            <div class="resultado" style="color:green;font-style: italic; padding-bottom: 1rem;">
             </div>
             <form id="formulario">
                 <div>
@@ -35,11 +41,11 @@
                     <label>
                         Mensaje
                     </label>
-                    <textarea id="mensaje"></textarea>
+                    <textarea id="mensaje" rows="10" ></textarea>
                     <p class="errorMensaje" style="color:red;font-style: italic;"></p>
                 </div>
                 <div>
-                    <button id="botton" type="submit">
+                    <button id="botton" class="btn"  type="submit">
                         Envíar mensaje
                     </button>
                 </div>

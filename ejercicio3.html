@@ -3,30 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 3</title>
+    <title>Calculadora</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+     <link rel="stylesheet" href="assets/css/style3.css">
 </head>
 
 <body>
     <div>
+        <h1>Calculator</h1>
         <div>
             <h2>
                 Resultado: <span class="resultado"></span>
             </h2>
             <div>
                 <div>
-                    <div>
-                        <label for="">Valor 1</label>
+                    <div class="caja">
+                        <label for="valor1">Valor 1</label>
                         <input id="valor1" type="text">
                     </div>
-                    <div>
-                        <label for="">Valor 2</label>
+                    <div class="caja">
+                        <label for="valor2">Valor 2</label>
                         <input id="valor2" type="text">
-                    </div>
-                    <div style="display: flex">
-                        <button id="btn-sumar" type="button">
+                    </div class="caja">
+                    <div class="caja">
+                        <button id="btn-sumar" type="button" class="btn1">
                             Sumar
                         </button>
-                        <button id="btn-restar" type="button">
+                        <button id="btn-restar" type="button" class="btn2">
                             Restar
                         </button>
                     </div>
@@ -34,9 +41,7 @@
             </div>
         </div>
     </div>
-    <script>
-    // Escríbe aquí tu código
-    </script>
+   <script src="assets/js/index3.js"></script>
 </body>
 
 </html>
